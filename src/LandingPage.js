@@ -21,9 +21,9 @@ const LandingPage = () => {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8 text-gray-700">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
+              <button>Home</button>
+              <button>About</button>
+              <button>Contact</button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -103,15 +103,15 @@ const LandingPage = () => {
           </p>
 
           <div className="flex justify-center gap-6 mt-6 text-gray-500">
-            <a href="#">
+            <span>
               <GithubIcon />
-            </a>
-            <a href="#">
+            </span>
+            <span>
               <TwitterIcon />
-            </a>
-            <a href="#">
+            </span>
+            <span>
               <LinkedInIcon />
-            </a>
+            </span>
           </div>
         </div>
       </section>
