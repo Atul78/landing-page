@@ -39,15 +39,9 @@ const LandingPage = () => {
         {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden px-6 pb-4 space-y-2">
-            <a className="block" href="#">
-              Home
-            </a>
-            <a className="block" href="#">
-              About
-            </a>
-            <a className="block" href="#">
-              Contact
-            </a>
+            <span className="block">Home</span>
+            <span className="block">About</span>
+            <span className="block">Contact</span>
           </div>
         )}
       </nav>
